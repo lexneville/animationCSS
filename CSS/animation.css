@@ -1,0 +1,27 @@
+.square{
+    width:300px;
+    height:100px;
+    background-color: blue;
+    animation-name: button;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+.square:hover{
+    border-radius: 50%;
+
+}
+@keyframes button {
+    0% {
+        background-color: red;
+        box-shadow: 6px 6px 0 darkgrey;
+    }
+    50%{
+        background-color: blue;
+        box-shadow: 6px 6px 0 darkslategray;
+    }
+    100% {
+        background-color: yellow;
+        box-shadow: 6px 6px 0 black;
+
+    }
+}

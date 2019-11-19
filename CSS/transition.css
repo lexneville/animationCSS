@@ -1,0 +1,16 @@
+.square{
+    padding: 50px 80px;
+    background-color: red;
+    color: white;
+    transition: all 0.5s ease;
+    margin-left: 300px;
+    text-decoration: none;
+    display:inline-block;
+}
+.square:hover{
+padding: 40px 90px;
+-webkit-box-shadow: 10px 10px 35px 49px rgba(61, 240, 7, 0.75);
+-moz-box-shadow: 10px 10px 35px 49px rgba(61, 240, 7, 0.75);
+box-shadow: 10px 10px 35px 49px rgba(61, 240, 7, 0.75);
+background-color: rgb(161, 37, 37);
+}
